@@ -8,7 +8,7 @@ function App() {
     <main>
       <h1>
         <div className="container">
-          <h3>Questions and answers about login</h3>
+          <h3>Questions and answers about logging in</h3>
           <div className="info">
             {questions.map((question) => {
               return <SingleQuestion key={question.id} {...question} />;
